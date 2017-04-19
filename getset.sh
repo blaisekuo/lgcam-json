@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" http://192.168.43.1:6624/osc/commands/execute -d '{"name":"camera.getOptions","parameters":{"optionNames":["iso","exposureProgram","fileFormat","fileFormatSupport","captureMode","_batteryLevel"]}}'
